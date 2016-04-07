@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="App1.gero"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="White">
+
+        <ScrollViewer Grid.Row="1">
+            <StackPanel  Orientation="Vertical">
+                <TextBlock Text="جــغــرافــيــا" FontSize="50" Margin="0 10"  HorizontalAlignment="Center" Foreground="#FF275BB6" FontFamily="/Assets/Font/JF Flat regular.ttf#JF Flat"    />
+
+                <Button x:Name="button1" Content="مصطلحات" Margin="20 50" HorizontalAlignment="Stretch" Height="135" FontFamily="/Assets/Font/mobily.ttf#MO_Nawel" FontSize="64"  Background="#FF317C53" Click="button1_Click"  />
+                <Button x:Name="button2" Content="مقالات" HorizontalAlignment="Stretch" Margin="20,50,20,0"  Height="135"  FontFamily="/Assets/Font/mobily.ttf#MO_Nawel" FontSize="64"  Background="#FF2A7480" Click="button2_Click" />
+
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

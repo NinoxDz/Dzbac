@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="App1.filo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Grid Background="White" >
+
+
+        <ScrollViewer Background="White">
+            <StackPanel   Orientation="Vertical">
+                <TextBlock Text="فـــلســفــى" FontSize="50"   HorizontalAlignment="Center" Foreground="#FF275BB6" FontFamily="/Assets/Font/JF Flat regular.ttf#JF Flat"  Grid.RowSpan="1" SelectionHighlightColor="#FF4617B4"   />
+
+                <Button x:Name="button1" Content="مقارنة" Margin="20 0" HorizontalAlignment="Stretch" 
+		Height="135" FontFamily="/Assets/Font/mobily.ttf#MO_Nawel" FontSize="64"  Background="#FFC33F3F" Click="button1_Click" />
+
+                <Button x:Name="button2" Content="جدل" HorizontalAlignment="Stretch" Margin="20 0"  Height="135" 
+		FontFamily="/Assets/Font/mobily.ttf#MO_Nawel" FontSize="64"  Background="#FF09706B" Click="button2_Click" />
+
+                <Button x:Name="button3" Content="بالوضع" HorizontalAlignment="Stretch" Margin="20 0" Height="135" 
+		 FontFamily="/Assets/Font/mobily.ttf#MO_Nawel" FontSize="64" Background="#FF0E0B51" Click="button3_Click" />
+                
+                 <Button x:Name="button4" Content="بالرفع" HorizontalAlignment="Stretch" Margin="20 0" Height="135" 
+		 FontFamily="/Assets/Font/mobily.ttf#MO_Nawel" FontSize="64"  Background="#FF464347" Click="button4_Click" />
+
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

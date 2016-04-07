@@ -1,0 +1,72 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="White">
+        <ScrollViewer>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="13*"/>
+                    <ColumnDefinition Width="12*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Button x:Name="button3" 
+                Content="علوم اسلامية"
+                HorizontalAlignment="Stretch"
+                Margin="10,3.167,10,0"
+               Height="138"
+                Background="#FF2785A0" 
+                Click="button3_Click"
+                FontFamily="/assets/font/mobily.ttf#MO_Nawel" 
+                FontSize="53.333"
+                 Grid.Row="1"  Grid.ColumnSpan="2"/>
+
+                <Button x:Name="button"
+                Content="تاريخ"   HorizontalAlignment="Stretch"
+                Height="295" Margin= " 10 0"
+                Background="#FFDA3C3C"
+                Click="button_Click" 
+                FontSize="53" 
+                FontFamily="/assets/font/mobily.ttf#MO_Nawel" 
+                 Grid.Row="2" Grid.RowSpan="2" Grid.Column="1"/>
+
+                <Button  x:Name="button1" 
+                Content="جغرافيا"
+                HorizontalAlignment="Stretch"
+                Margin="10 5"
+                Height="143"
+                Background="#FF3F8342"
+                FontFamily="/assets/font/mobily.ttf#MO_Nawel" 
+                FontSize="53"
+                Click="button1_Click" Grid.Row="2"/>
+
+                <Button x:Name="button2" 
+                Content="فلسفى" 
+                HorizontalAlignment="Stretch"
+                Margin="10 5" 
+                VerticalAlignment="Top" 
+                 Height="147"
+                Background="#FFE0D82F" 
+                FontFamily="/assets/font/mobily.ttf#MO_Nawel" 
+                FontSize="53.333"
+                FontWeight="Normal" Click="button2_Click" Grid.Row="3"/>
+
+               
+                <Image x:Name="image" Source="assets/biglogo.png"   Margin="10,20,0,0"  Grid.ColumnSpan="2"  />
+
+            </Grid>
+        </ScrollViewer>
+
+    </Grid>
+</Page>
